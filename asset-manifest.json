@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/text-simp-for-edu/static/css/main.a3d8a765.css",
+    "main.js": "/text-simp-for-edu/static/js/main.16d71238.js",
+    "static/js/787.bf2a1745.chunk.js": "/text-simp-for-edu/static/js/787.bf2a1745.chunk.js",
+    "index.html": "/text-simp-for-edu/index.html",
+    "main.a3d8a765.css.map": "/text-simp-for-edu/static/css/main.a3d8a765.css.map",
+    "main.16d71238.js.map": "/text-simp-for-edu/static/js/main.16d71238.js.map",
+    "787.bf2a1745.chunk.js.map": "/text-simp-for-edu/static/js/787.bf2a1745.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3d8a765.css",
+    "static/js/main.16d71238.js"
+  ]
+}
