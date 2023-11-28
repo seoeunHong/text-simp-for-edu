@@ -1,0 +1,137 @@
+2023-09-28 10:29:04 AM -root-INFO-g2p_aligner:Training epoch:0
+2023-09-28 10:29:04 AM -root-INFO-g2p_aligner:Training epoch:1
+2023-09-28 10:29:04 AM -root-INFO-g2p_aligner:Training epoch:2
+2023-09-28 10:29:04 AM -root-INFO-g2p_aligner:Training epoch:3
+2023-09-28 10:29:04 AM -root-INFO-g2p_aligner:Training epoch:4
+2023-09-28 10:29:19 AM -root-INFO-g2p_aligner:Training epoch:0
+2023-09-28 10:29:19 AM -root-INFO-g2p_aligner:Training epoch:1
+2023-09-28 10:29:19 AM -root-INFO-g2p_aligner:Training epoch:2
+2023-09-28 10:29:19 AM -root-INFO-g2p_aligner:Training epoch:3
+2023-09-28 10:29:19 AM -root-INFO-g2p_aligner:Training epoch:4
+2023-09-28 10:29:30 AM -root-INFO-g2p_aligner:Training epoch:0
+2023-09-28 10:29:30 AM -root-INFO-g2p_aligner:Training epoch:1
+2023-09-28 10:29:30 AM -root-INFO-g2p_aligner:Training epoch:2
+2023-09-28 10:29:30 AM -root-INFO-g2p_aligner:Training epoch:3
+2023-09-28 10:29:30 AM -root-INFO-g2p_aligner:Training epoch:4
+2023-09-28 10:29:50 AM -root-INFO-g2p_aligner:Training epoch:0
+2023-09-28 10:29:50 AM -root-INFO-g2p_aligner:Training epoch:1
+2023-09-28 10:29:50 AM -root-INFO-g2p_aligner:Training epoch:2
+2023-09-28 10:29:50 AM -root-INFO-g2p_aligner:Training epoch:3
+2023-09-28 10:29:50 AM -root-INFO-g2p_aligner:Training epoch:4
+2023-09-28 10:30:55 AM -root-INFO-g2p_aligner:Training epoch:0
+2023-09-28 10:30:55 AM -root-INFO-g2p_aligner:Training epoch:1
+2023-09-28 10:30:55 AM -root-INFO-g2p_aligner:Training epoch:2
+2023-09-28 10:30:55 AM -root-INFO-g2p_aligner:Training epoch:3
+2023-09-28 10:30:55 AM -root-INFO-g2p_aligner:Training epoch:4
+2023-09-28 10:45:00 AM -root-INFO-debug:Training epoch:0
+2023-09-28 10:45:00 AM -root-INFO-debug:Training epoch:1
+2023-09-28 10:45:00 AM -root-INFO-debug:Training epoch:2
+2023-09-28 10:45:00 AM -root-INFO-debug:Training epoch:3
+2023-09-28 10:45:00 AM -root-INFO-debug:Training epoch:4
+2023-09-28 10:45:03 AM -root-INFO-debug:Training epoch:0
+2023-09-28 10:45:03 AM -root-INFO-debug:Training epoch:1
+2023-09-28 10:45:03 AM -root-INFO-debug:Training epoch:2
+2023-09-28 10:45:03 AM -root-INFO-debug:Training epoch:3
+2023-09-28 10:45:03 AM -root-INFO-debug:Training epoch:4
+2023-09-28 11:18:26 AM -root-INFO-debug:Training epoch:0
+2023-09-28 11:18:26 AM -root-INFO-debug:Training epoch:1
+2023-09-28 11:18:26 AM -root-INFO-debug:Training epoch:2
+2023-09-28 11:18:26 AM -root-INFO-debug:Training epoch:3
+2023-09-28 11:18:26 AM -root-INFO-debug:Training epoch:4
+2023-09-28 11:20:04 AM -root-INFO-debug:Training epoch:0
+2023-09-28 11:20:04 AM -root-INFO-debug:Training epoch:1
+2023-09-28 11:20:04 AM -root-INFO-debug:Training epoch:2
+2023-09-28 11:20:04 AM -root-INFO-debug:Training epoch:3
+2023-09-28 11:20:04 AM -root-INFO-debug:Training epoch:4
+2023-09-28 15:42:35 PM -root-INFO-debug:Training epoch:0
+2023-09-28 15:42:35 PM -root-INFO-debug:Training epoch:1
+2023-09-28 15:42:35 PM -root-INFO-debug:Training epoch:2
+2023-09-28 15:42:35 PM -root-INFO-debug:Training epoch:3
+2023-09-28 15:42:35 PM -root-INFO-debug:Training epoch:4
+2023-09-28 15:46:22 PM -root-INFO-debug:Training epoch:0
+2023-09-28 15:46:22 PM -root-INFO-debug:Training epoch:1
+2023-09-28 15:46:22 PM -root-INFO-debug:Training epoch:2
+2023-09-28 15:46:22 PM -root-INFO-debug:Training epoch:3
+2023-09-28 15:46:22 PM -root-INFO-debug:Training epoch:4
+2023-09-28 15:46:43 PM -root-INFO-debug:Training epoch:0
+2023-09-28 15:46:43 PM -root-INFO-debug:Training epoch:1
+2023-09-28 15:46:43 PM -root-INFO-debug:Training epoch:2
+2023-09-28 15:46:43 PM -root-INFO-debug:Training epoch:3
+2023-09-28 15:46:43 PM -root-INFO-debug:Training epoch:4
+2023-09-28 15:51:24 PM -root-ERROR-debug:Word length is less than phones'!
+2023-09-28 15:51:24 PM -root-INFO-debug:usually-['Y', 'UW1', 'ZH', 'AH0', 'W', 'AH0', 'L', 'IY0']
+2023-09-28 15:54:42 PM -root-ERROR-debug:Word length is less than phones'!
+2023-09-28 15:54:42 PM -root-INFO-debug:usually-['Y', 'UW1', 'ZH', 'AH0', 'W', 'AH0', 'L', 'IY0']
+2023-09-28 16:02:42 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-28 16:02:42 PM -root-INFO-run_phonemes_graphemes_alignment:usually-['Y', 'UW1', 'ZH', 'AH0', 'W', 'AH0', 'L', 'IY0']
+2023-09-29 09:15:19 AM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:0
+2023-09-29 09:22:46 AM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:1
+2023-09-29 09:30:41 AM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:2
+2023-09-29 09:38:20 AM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:3
+2023-09-29 09:45:51 AM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:4
+2023-09-29 10:07:06 AM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:0
+2023-09-29 10:22:56 AM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:1
+2023-09-29 10:39:57 AM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:2
+2023-09-29 10:56:53 AM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:3
+2023-09-29 11:12:17 AM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:4
+2023-09-29 12:12:34 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:0
+2023-09-29 12:12:34 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:1
+2023-09-29 12:12:34 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:2
+2023-09-29 12:12:34 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:3
+2023-09-29 12:12:34 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:4
+2023-09-29 12:13:34 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:0
+2023-09-29 12:13:34 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:1
+2023-09-29 12:13:34 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:2
+2023-09-29 12:13:34 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:3
+2023-09-29 12:13:34 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:4
+2023-09-29 12:17:13 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:0
+2023-09-29 12:17:13 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:1
+2023-09-29 12:17:13 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:2
+2023-09-29 12:17:13 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:3
+2023-09-29 12:17:13 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:4
+2023-09-29 12:27:07 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:0
+2023-09-29 12:40:01 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:1
+2023-09-29 12:44:51 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:0
+2023-09-29 12:44:51 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:1
+2023-09-29 12:44:51 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:2
+2023-09-29 12:44:51 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:3
+2023-09-29 12:44:51 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:4
+2023-09-29 12:45:29 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:0
+2023-09-29 12:45:29 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:1
+2023-09-29 12:45:29 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:2
+2023-09-29 12:45:29 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:3
+2023-09-29 12:45:29 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:4
+2023-09-29 12:45:48 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:0
+2023-09-29 12:45:48 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:1
+2023-09-29 12:45:48 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:2
+2023-09-29 12:45:48 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:3
+2023-09-29 12:45:48 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:4
+2023-09-29 12:50:37 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:0
+2023-09-29 13:04:14 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:1
+2023-09-29 13:19:14 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:2
+2023-09-29 13:33:33 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:3
+2023-09-29 13:47:51 PM -root-INFO-run_phonemes_graphemes_alignment:Training epoch:4
+2023-09-29 16:16:49 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:16:49 PM -root-INFO-run_phonemes_graphemes_alignment:the sun shines brightly in the clear blue sky making it a perfect day for a picnic-['DH', 'AH0', '', '', 'S', 'AH1', 'N', '', '', 'SH', 'AY1', 'N', 'Z', '', '', 'B', 'R', 'AY1', 'T', 'L', 'IY0', '', '', 'IH0', 'N', '', '', 'DH', 'AH0', '', '', 'K', 'L', 'IH1', 'R', '', '', 'B', 'L', 'UW1', '', '', 'S', 'K', 'AY1', '', '', 'M', 'EY1', 'K', 'IH0', 'NG', '', '', 'IH1', 'T', '', '', 'AH0', '', '', 'P', 'ER1', 'F', 'IH2', 'K', 'T', '', '', 'D', 'EY1', '', '', 'F', 'AO1', 'R', '', '', 'AH0', '', '', 'P', 'IH1', 'K', 'N', 'IH2', 'K']
+2023-09-29 16:16:51 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:16:51 PM -root-INFO-run_phonemes_graphemes_alignment:the enigmatic quasar at the edge of the observable universe emits luminous radiation that has traveled billions of light years to reach our telescopes providing a glimpse into the early cosmos-['DH', 'AH0', '', '', 'EH2', 'N', 'IH0', 'G', 'M', 'AE1', 'T', 'IH0', 'K', '', '', 'K', 'W', 'EY1', 'Z', 'AA0', 'R', '', '', 'AE1', 'T', '', '', 'DH', 'AH0', '', '', 'EH1', 'JH', '', '', 'AH1', 'V', '', '', 'DH', 'AH0', '', '', 'AH0', 'B', 'Z', 'ER1', 'V', 'AH0', 'B', 'AH0', 'L', '', '', 'Y', 'UW1', 'N', 'AH0', 'V', 'ER2', 'S', '', '', 'IH0', 'M', 'IH1', 'T', 'S', '', '', 'L', 'UW1', 'M', 'AH0', 'N', 'AH0', 'S', '', '', 'R', 'EY2', 'D', 'IY0', 'EY1', 'SH', 'AH0', 'N', '', '', 'DH', 'AE1', 'T', '', '', 'HH', 'AE1', 'Z', '', '', 'T', 'R', 'AE1', 'V', 'AH0', 'L', 'D', '', '', 'B', 'IH1', 'L', 'Y', 'AH0', 'N', 'Z', '', '', 'AH1', 'V', '', '', 'L', 'AY1', 'T', '', '', 'Y', 'IH1', 'R', 'Z', '', '', 'T', 'UW1', '', '', 'R', 'IY1', 'CH', '', '', 'AW1', 'ER0', '', '', 'T', 'EH1', 'L', 'AH0', 'S', 'K', 'OW2', 'P', 'S', '', '', 'P', 'R', 'AH0', 'V', 'AY1', 'D', 'IH0', 'NG', '', '', 'AH0', '', '', 'G', 'L', 'IH1', 'M', 'P', 'S', '', '', 'IH0', 'N', 'T', 'UW1', '', '', 'DH', 'AH0', '', '', 'ER1', 'L', 'IY0', '', '', 'K', 'AA1', 'Z', 'M', 'OW0', 'S']
+2023-09-29 16:17:08 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:17:08 PM -root-INFO-run_phonemes_graphemes_alignment:the sun shines brightly in the clear blue sky making it a perfect day for a picnic-['DH', 'AH0', '', '', 'S', 'AH1', 'N', '', '', 'SH', 'AY1', 'N', 'Z', '', '', 'B', 'R', 'AY1', 'T', 'L', 'IY0', '', '', 'IH0', 'N', '', '', 'DH', 'AH0', '', '', 'K', 'L', 'IH1', 'R', '', '', 'B', 'L', 'UW1', '', '', 'S', 'K', 'AY1', '', '', 'M', 'EY1', 'K', 'IH0', 'NG', '', '', 'IH1', 'T', '', '', 'AH0', '', '', 'P', 'ER1', 'F', 'IH2', 'K', 'T', '', '', 'D', 'EY1', '', '', 'F', 'AO1', 'R', '', '', 'AH0', '', '', 'P', 'IH1', 'K', 'N', 'IH2', 'K']
+2023-09-29 16:17:11 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:17:11 PM -root-INFO-run_phonemes_graphemes_alignment:the enigmatic quasar at the edge of the observable universe emits luminous radiation that has traveled billions of light years to reach our telescopes providing a glimpse into the early cosmos-['DH', 'AH0', '', '', 'EH2', 'N', 'IH0', 'G', 'M', 'AE1', 'T', 'IH0', 'K', '', '', 'K', 'W', 'EY1', 'Z', 'AA0', 'R', '', '', 'AE1', 'T', '', '', 'DH', 'AH0', '', '', 'EH1', 'JH', '', '', 'AH1', 'V', '', '', 'DH', 'AH0', '', '', 'AH0', 'B', 'Z', 'ER1', 'V', 'AH0', 'B', 'AH0', 'L', '', '', 'Y', 'UW1', 'N', 'AH0', 'V', 'ER2', 'S', '', '', 'IH0', 'M', 'IH1', 'T', 'S', '', '', 'L', 'UW1', 'M', 'AH0', 'N', 'AH0', 'S', '', '', 'R', 'EY2', 'D', 'IY0', 'EY1', 'SH', 'AH0', 'N', '', '', 'DH', 'AE1', 'T', '', '', 'HH', 'AE1', 'Z', '', '', 'T', 'R', 'AE1', 'V', 'AH0', 'L', 'D', '', '', 'B', 'IH1', 'L', 'Y', 'AH0', 'N', 'Z', '', '', 'AH1', 'V', '', '', 'L', 'AY1', 'T', '', '', 'Y', 'IH1', 'R', 'Z', '', '', 'T', 'UW1', '', '', 'R', 'IY1', 'CH', '', '', 'AW1', 'ER0', '', '', 'T', 'EH1', 'L', 'AH0', 'S', 'K', 'OW2', 'P', 'S', '', '', 'P', 'R', 'AH0', 'V', 'AY1', 'D', 'IH0', 'NG', '', '', 'AH0', '', '', 'G', 'L', 'IH1', 'M', 'P', 'S', '', '', 'IH0', 'N', 'T', 'UW1', '', '', 'DH', 'AH0', '', '', 'ER1', 'L', 'IY0', '', '', 'K', 'AA1', 'Z', 'M', 'OW0', 'S']
+2023-09-29 16:19:22 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:19:22 PM -root-INFO-run_phonemes_graphemes_alignment:expected-['IH0', 'K', 'S', 'P', 'EH1', 'K', 'T', 'AH0', 'D']
+2023-09-29 16:22:03 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:22:03 PM -root-INFO-run_phonemes_graphemes_alignment:expected-['IH0', 'K', 'S', 'P', 'EH1', 'K', 'T', 'AH0', 'D']
+2023-09-29 16:22:14 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:22:14 PM -root-INFO-run_phonemes_graphemes_alignment:expected-['IH0', 'K', 'S', 'P', 'EH1', 'K', 'T', 'AH0', 'D']
+2023-09-29 16:23:00 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:23:00 PM -root-INFO-run_phonemes_graphemes_alignment:expected-['IH0', 'K', 'S', 'P', 'EH1', 'K', 'T', 'AH0', 'D']
+2023-09-29 16:23:41 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:23:41 PM -root-INFO-run_phonemes_graphemes_alignment:expected-['IH0', 'K', 'S', 'P', 'EH1', 'K', 'T', 'AH0', 'D']
+2023-09-29 16:25:00 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:25:00 PM -root-INFO-run_phonemes_graphemes_alignment:expected-['IH0', 'K', 'S', 'P', 'EH1', 'K', 'T', 'AH0', 'D']
+2023-09-29 16:26:33 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:26:33 PM -root-INFO-run_phonemes_graphemes_alignment:expected-['IH0', 'K', 'S', 'P', 'EH1', 'K', 'T', 'AH0', 'D']
+2023-09-29 16:37:34 PM -root-ERROR-run_phonemes_graphemes_alignment:Word length is less than phones'!
+2023-09-29 16:37:34 PM -root-INFO-run_phonemes_graphemes_alignment:expected-['IH0', 'K', 'S', 'P', 'EH1', 'K', 'T', 'AH0', 'D']

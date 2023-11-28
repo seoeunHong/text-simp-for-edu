@@ -1,0 +1,30 @@
+if	IH1 F
+you	Y UW1
+re	R EY1
+not	N AA1 T
+getting	G EH1 T IH0 NG
+the	DH AH0
+expected	IH0 K S P EH1 K T AH0 D
+return	R IH0 T ER1 N
+value	V AE1 L Y UW0
+from	F R AH1 M
+the	DH AH0
+called	K AO1 L D
+script	S K R IH1 P T
+there	DH EH1 R
+might	M AY1 T
+be	B IY1
+an	AE1 N
+issue	IH1 SH UW0
+with	W IH1 DH
+the	DH AH0
+script	S K R IH1 P T
+you	Y UW1
+re	R EY1
+calling	K AO1 L IH0 NG
+or	AO1 R
+how	HH AW1
+it	IH1 T
+s	EH1 S
+returning	R IH0 T ER1 N IH0 NG
+values	V AE1 L Y UW0 Z
