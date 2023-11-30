@@ -7,7 +7,7 @@ stemmer = PorterStemmer()  # Initialize the Porter Stemmer
 
 def build_DallChall_dict():
     DallChall_dict = {}
-    with open('trained_models/linguistic_features/Datasets/Dale-Chall.txt', 'r') as file:
+    with open('trained_models/linguistic_features/datasets/Dale-Chall.txt', 'r') as file:
         current_heading = None  # Initialize the current heading
         for line in file:
             line = line.strip()  # Remove leading/trailing whitespace

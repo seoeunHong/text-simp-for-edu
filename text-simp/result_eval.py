@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def minimal_Lexile_score(exprerience_path):
+def minimal_lexile_score(exprerience_path):
     # run this for get the list of scores for the first experiment - minimal Lexile score
     # i put the mean of this list in the table
     df = pd.read_csv(exprerience_path)

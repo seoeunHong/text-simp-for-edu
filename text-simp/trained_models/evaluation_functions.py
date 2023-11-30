@@ -1,6 +1,10 @@
-from trained_models.linguistic_features import linguistic_textual_features
-from trained_models.linguistic_features import readability_formulas_functions
-from trained_models.linguistic_features import linguistic_formulas_features
+import os
+import sys
+# print the current working directory
+path = os.path.abspath("linguistic_features")
+sys.path.append(path)
+
+from linguistic_features import linguistic_textual_features, readability_formulas_functions, linguistic_formulas_features
 
 def syntax_complexity_all(text,nlp):
     # Given a text, return the scores for all readability formulas and additional linguistic textual features from the syntax complexity category

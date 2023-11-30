@@ -1,4 +1,6 @@
 from trained_models import evaluation_functions
+import text_simp_math
+import text_simp_sci
 import openai
 import os
 import json
@@ -37,3 +39,44 @@ def calculate_one_text_score(text,category):
     for key, value in text_score_dict.items():
         x.append(value)
     return np.float64(model.predict([x])[0])
+
+
+# Make Pipeline Function to do experiments
+
+def text_simp_pipeline(data_type, exp_type, prompt_detail, target_lexile, category):
+    print("Start Running...")
+    data_type, exp_type, prompt_detail = data_type.lower(), exp_type.lower(), prompt_detail.lower()
+    sampels_num = 50
+    iterations_num = 3
+
+    if data_type == "math":
+        dataset_name = "gsm8k"
+        if exp_type == "minimal":
+            text_simp_math.minimal_lexile_score(dataset_name, sampels_num, iterations_num, prompt_detail)
+        elif exp_type == "target":
+            text_simp_math.target_lexile_score(dataset_name, sampels_num, iterations_num, prompt_detail, target_lexile)
+        elif exp_type == "one_axis":
+            text_simp_math.one_axis_lexile_score(dataset_name, sampels_num, iterations_num, prompt_detail, category)
+    elif data_type == "science":
+        dataset_name = "../datasets/filtered_science.json"
+        if exp_type == "minimal":
+            text_simp_sci.minimal_lexile_score(dataset_name, sampels_num, iterations_num, prompt_detail)
+        elif exp_type == "target":
+            text_simp_sci.target_lexile_score(dataset_name, sampels_num, iterations_num, prompt_detail, target_lexile)
+        elif exp_type == "one_axis":
+            text_simp_sci.one_axis_lexile_score(dataset_name, sampels_num, iterations_num, prompt_detail, category)
+    else:
+        print("There is no such dataset")
+        return
+    
+    print("Experiment Is Done See The Result at experiment_results folder")
+
+
+
+if __name__ == '__main__':
+    DATA_TYPE = "math" #science
+    EXP_TYPE = "minimal" #target #one_axis
+    PROMPT_DETAIL = "base" #knowledge #formula #fewshots
+    TARGET_LEXILE = None #700 #900 #1200
+    CATEGORY = None #syntax #lexical #decodability
+    text_simp_pipeline(DATA_TYPE, EXP_TYPE, PROMPT_DETAIL, TARGET_LEXILE, CATEGORY)
