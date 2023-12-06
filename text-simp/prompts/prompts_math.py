@@ -279,3 +279,64 @@ def target_exp_res_prompt_final(solvable, simp_text_lexile_score, syntax_lexile,
     else:
         prompt = "The generated text appears to be unsolvable as it lacks the essential information needed to solve the problem. Please try again and ensure that the simplified text remains solvable. \n Return just the simplified text. The simplified text is:"
     return prompt
+
+def category_exp(category):
+    prompt = ""
+    if category == "syntax":
+        prompt = "Syntax complexity - Determined by factors such as the avg number of words and characters in sentence, the avg parsing tree depth, the avg maximum nesting level, the avg punctuation count, and the avg number of entity and POS tags."
+    elif category == "lexical":
+        prompt = "Lexical complexity - Assessed based on the avg number of words in the DallChall list,abg syllables count,avg number of difficult words (according to syllables), and avg Kuperman Age of Acquisition (AoA) score."
+    else:
+        prompt = "Decodability complexity - Calculated using metrics like type-token ratio (ttr), letter sound discrepancy, and average grapheme-phoneme correspondences (GPCs) probability."
+    return prompt
+
+
+def one_axis_initial_prompt(prompt_detail, given_text, category, G_category):
+    messages = []
+    prompt_detail = prompt_detail.lower()
+    prompt = ""
+    if prompt_detail == "base":
+        prompt = f"As a text simplification agent specialized in math problems, your goal is to enhance the readability of mathematical questions while ensuring they remain solvable with the same answer. \
+               Let's focus on {category} complexity for this task. \
+               Here's a math problem for you to simplify: {given_text}.\
+               Please simplify the text while preserving its original meaning with a focus on reducing {category} complexity. \n The simplified text:"
+    elif prompt_detail == "knowledge":
+        G_category_exp = category_exp(category)
+        prompt = f"As a text simplification agent specialized in math problems, your goal is to enhance the readability of mathematical questions while ensuring they remain solvable with the same answer. \
+               Let's focus on {category} complexity for this task. \
+               {G_category_exp} \
+               Here's a math problem for you to simplify: {given_text}.\
+               The {category} complexity score of this text is: {G_category}.\
+               Please simplify the text while preserving its original meaning with a focus on reducing {category} complexity. \n The simplified text:"
+    '''
+    elif prompt_detail == "formula":
+        prompt = target_detail_prompt(given_text, cur_lexile_score, target_lexile)
+    elif prompt_detail == "fewshots":
+        fewshot_examples = generate_fewshot_examples(target_lexile)
+        n = len(fewshot_examples)
+        for i in range(n):
+            if i % 2 == 0:
+                messages.append({"role": "user", "content": fewshot_examples[i]})
+            else:
+                messages.append({"role": "assistant", "content": fewshot_examples[i]})
+        prompt = minimal_detailed_prompt(given_text, cur_lexile_score)
+    '''
+    messages.append({"role": "user", "content": prompt})
+    return messages
+
+def one_axis_exp_res_prompt_base(solvable, simp_text_category_score, category):
+    prompt = ""
+    if solvable:
+        prompt = f"Your generated text {category} complexity score is: {simp_text_category_score} \n  Please continue to simplify the text further while preserving its original meaning. Try to focus on simplify the text's {category}. \n The simplified text:"
+    else:
+        prompt =f"The generated text appears to be unsolvable as it lacks the essential information needed to solve the problem. Please try again and ensure that the rephrased text remains solvable. \n The simplified text:"
+    return prompt
+
+def one_axis_exp_res_prompt_knowledge(solvable, simp_text_category_score, category):
+    prompt = ""
+    G_category_exp = category_exp(category)
+    if solvable:
+        prompt = f"Your generated text {category} complexity score is: {simp_text_category_score} \n  Please continue to simplify the text further while preserving its original meaning. Try to focus on simplify the text's {category}. \n As remembered, {G_category_exp}\n The simplified text:"
+    else:
+        prompt = f"The generated text appears to be unsolvable as it lacks the essential information needed to solve the problem. Please try again and ensure that the rephrased text remains solvable. \n The simplified text:"
+    return prompt
