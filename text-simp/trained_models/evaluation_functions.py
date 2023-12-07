@@ -1,7 +1,13 @@
 import os
 import sys
 # print the current working directory
+'''
+import os
 path = os.path.abspath("linguistic_features")
+print(path)
+sys.path.append(path)
+'''
+path = os.path.abspath("trained_models")
 sys.path.append(path)
 
 from linguistic_features import linguistic_textual_features, readability_formulas_functions, linguistic_formulas_features

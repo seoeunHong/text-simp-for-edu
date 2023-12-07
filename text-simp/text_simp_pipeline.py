@@ -58,7 +58,7 @@ def text_simp_pipeline(data_type, exp_type, prompt_detail, target_lexile, catego
         elif exp_type == "one_axis":
             text_simp_math.one_axis_lexile_score(dataset_name, sampels_num, iterations_num, prompt_detail, category)
     elif data_type == "science":
-        dataset_name = "../datasets/filtered_science.json"
+        dataset_name = "/problem_dataset/filtered_science.json"
         if exp_type == "minimal":
             text_simp_sci.minimal_lexile_score(dataset_name, sampels_num, iterations_num, prompt_detail)
         elif exp_type == "target":

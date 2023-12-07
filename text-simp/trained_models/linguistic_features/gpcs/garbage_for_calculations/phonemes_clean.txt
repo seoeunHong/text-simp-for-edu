@@ -1,66 +1,80 @@
-grandma	G R AE1 M AA0
-jones	JH OW1 N Z
-baked	B EY1 K T
-apple	AE1 P AH0 L
-pies	P AY1 Z
+what	W AH1 T
+is	IH1 Z
+the	DH AH0
+reason	R IY1 Z AH0 N
+behind	B IH0 HH AY1 N D
+using	Y UW1 Z IH0 NG
+metal	M EH1 T AH0 L
 for	F AO1 R
 the	DH AH0
-fireman	F AY1 R M AH0 N
-luncheon	L AH1 N CH AH0 N
-she	SH IY1
-cut	K AH1 T
-each	IY1 CH
-pie	P AY1
+prongs	P R AO1 NG Z
+of	AH1 V
+an	AE1 N
+electric	IH0 L EH1 K T R IH0 K
+toothbrush	T UW1 TH B R AH0 SH
+a	AH0
+metal	M EH1 T AH0 L
+prongs	P R AO1 NG Z
+ensure	EH0 N SH UH1 R
+that	DH AE1 T
+they	DH EY1
+do	D UW1
+not	N AA1 T
+get	G EH1 T
+hot	HH AA1 T
+and	AH0 N D
+melt	M EH1 L T
+when	W EH1 N
+plugged	P L AH1 G D
 into	IH0 N T UW1
-even	IY1 V IH0 N
-pieces	P IY1 S AH0 Z
+an	AE1 N
+outlet	AW1 T L EH2 T
+metal	M EH1 T AH0 L
+prongs	P R AO1 NG Z
+offer	AO1 F ER0
+strength	S T R EH1 NG K TH
 and	AH0 N D
-set	S EH1 T
+reduce	R AH0 D UW1 S
 the	DH AH0
-five	F AY1 V
-pies	P AY1 Z
-out	AW1 T
-on	AA1 N
+risk	R IH1 S K
+of	AH1 V
+breaking	B R EY1 K IH0 NG
+when	W EH1 N
+plugged	P L AH1 G D
+into	IH0 N T UW1
+an	AE1 N
+outlet	AW1 T L EH2 T
+metal	M EH1 T AH0 L
+prongs	P R AO1 NG Z
+act	AE1 K T
+as	AE1 Z
+insulators	IH1 N S AH0 L EY2 T ER0 Z
+and	AH0 N D
+prevent	P R IH0 V EH1 N T
+electric	IH0 L EH1 K T R IH0 K
+shocks	SH AA1 K S
+when	W EH1 N
 the	DH AH0
-buffet	B AH1 F AH0 T
-table	T EY1 B AH0 L
-for	F AO1 R
-the	DH AH0
-guests	G EH1 S T S
-to	T UW1
+toothbrush	T UW1 TH B R AH0 SH
+is	IH1 Z
+plugged	P L AH1 G D
+in	IH0 N
+metal	M EH1 T AH0 L
+prongs	P R AO1 NG Z
 serve	S ER1 V
-themselves	DH EH0 M S EH1 L V Z
-at	AE1 T
+as	AE1 Z
+conductors	K AH0 N D AH1 K T ER0 Z
+allowing	AH0 L AW1 IH0 NG
 the	DH AH0
-end	EH1 N D
+completion	K AH0 M P L IY1 SH AH0 N
 of	AH1 V
+a	AH0
+circuit	S ER1 K AH0 T
+when	W EH1 N
 the	DH AH0
-evening	IY1 V N IH0 NG
-after	AE1 F T ER0
-the	DH AH0
-guests	G EH1 S T S
-had	HH AE1 D
-taken	T EY1 K AH0 N
-and	AH0 N D
-eaten	IY1 T AH0 N
-their	DH EH1 R
-pieces	P IY1 S AH0 Z
-of	AH1 V
-pie	P AY1
-there	DH EH1 R
-were	W ER0
-pieces	P IY1 S AH0 Z
-of	AH1 V
-pie	P AY1
-remaining	R IH0 M EY1 N IH0 NG
-how	HH AW1
-many	M EH1 N IY0
-pieces	P IY1 S AH0 Z
-were	W ER0
-taken	T EY1 K AH0 N
-by	B AY1
-the	DH AH0
-guests	G EH1 S T S
-durring	D AO1 R IH0 NG
-the	DH AH0
-luncheon	L AH1 N CH AH0 N
+toothbrush	T UW1 TH B R AH0 SH
+is	IH1 Z
+plugged	P L AH1 G D
+into	IH0 N T UW1
+an	AE1 N
+outlet	AW1 T L EH2 T

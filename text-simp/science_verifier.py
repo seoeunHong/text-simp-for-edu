@@ -49,3 +49,15 @@ def ask_gpt_to_verify(question):
 def is_solvable(simplified_text, ans):
     model_completion = ask_gpt_to_verify(simplified_text)
     return is_correct(ans, model_completion)
+
+def extract_question(text):
+    # Split the text into sentences
+    sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s', text)
+
+    # Filter out sentences containing the word "Lexile"
+    question_sentences = [sentence for sentence in sentences if "Lexile" not in sentence and "syntax" not in sentence and "lexical" not in sentence]
+
+    # Join the remaining sentences to form the question
+    question = ' '.join(question_sentences)
+
+    return question
